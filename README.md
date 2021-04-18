@@ -6,7 +6,7 @@ Simple chat using ActionCable.
 To run the application it is assumed that you have installed Ruby Version Manager, with version 3.0.0 as default, and Mysql.
 
 [Ruby Version Manager](https://rvm.io/rvm/install).
-After instalation run 'rvm install ruby-2.6.5'.
+After instalation run 'rvm install ruby-3.0.0'.
 
 [MySql](https://dev.mysql.com/doc/refman/5.7/en/installing.html).
 Make sure the service is running. And that the username and password is the same as that configured in the database.yml file.
