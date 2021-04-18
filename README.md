@@ -35,3 +35,7 @@ Start the Rails app to see the In-Context-Editor added to the To-Do application.
     rails s -b 0.0.0.0
 
 You can find your app now by pointing your browser to http://localhost:3000.
+
+### Resources
+
+[Simple chatroom with Rails 6 and ActionCable](https://dev.to/nkemjiks/simple-chatroom-with-rails-6-and-actioncable-3bc3).
