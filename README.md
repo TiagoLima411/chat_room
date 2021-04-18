@@ -1,24 +1,37 @@
-# README
+# Chat Room
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple chat using ActionCable.
 
-Things you may want to cover:
+## Installation
+To run the application it is assumed that you have installed Ruby Version Manager, with version 3.0.0 as default, and Mysql.
 
-* Ruby version
+[Ruby Version Manager](https://rvm.io/rvm/install).
+After instalation run 'rvm install ruby-2.6.5'.
 
-* System dependencies
+[MySql](https://dev.mysql.com/doc/refman/5.7/en/installing.html).
+Make sure the service is running. And that the username and password is the same as that configured in the database.yml file.
 
-* Configuration
+Clone repository `git clone git@github.com:TiagoLima411/chat_room.git`.
+Enter the `chat_room` folder.
 
-* Database creation
+### Set up Chat Room app
 
-* Database initialization
+First, install the gems required by the application:
 
-* How to run the test suite
+    gem install bundle
+    bundle install
+    
+Next, execute the database commands:
 
-* Services (job queues, cache servers, search engines, etc.)
+    rails db:create
+    rails db:migrate
+    rails db:migrate
 
-* Deployment instructions
 
-* ...
+### Start the app
+
+Start the Rails app to see the In-Context-Editor added to the To-Do application. You're ready to localize your app:
+
+    rails s -b 0.0.0.0
+
+You can find your app now by pointing your browser to http://localhost:3000.
